@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="200516-song-idea" sample-rate="44100" end-is-free="0" id-counter="16207" name-counter="2" event-counter="164795" vca-counter="1">
+<Session version="3002" name="200516-song-idea" sample-rate="44100" end-is-free="0" id-counter="18545" name-counter="2" event-counter="165262" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3" modified-with="Ardour 1:5.12.0-3ubuntu4"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -1163,8 +1163,8 @@
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
-      <Controllable name="mute" id="11095" flags="Toggle,RealTime" value="1"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="11095" flags="Toggle,RealTime" value="0"/>
       <Controllable name="phase" id="11097" flags="Toggle" value="0" phase-invert="00"/>
       <Automation>
         <AutomationList automation-id="solo" id="11092" interpolation-style="Discrete" state="Off"/>
@@ -1243,8 +1243,8 @@
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
-      <Controllable name="mute" id="12574" flags="Toggle,RealTime" value="1"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="12574" flags="Toggle,RealTime" value="0"/>
       <Controllable name="phase" id="12576" flags="Toggle" value="0" phase-invert="00"/>
       <Automation>
         <AutomationList automation-id="solo" id="12571" interpolation-style="Discrete" state="Off"/>
@@ -1323,8 +1323,8 @@
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
-      <Controllable name="mute" id="12794" flags="Toggle,RealTime" value="1"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="12794" flags="Toggle,RealTime" value="0"/>
       <Controllable name="phase" id="12796" flags="Toggle" value="0" phase-invert="00"/>
       <Automation>
         <AutomationList automation-id="solo" id="12791" interpolation-style="Discrete" state="Off"/>
@@ -1612,7 +1612,7 @@
       <Region name="MIDI-1.11" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="1347812" length="673202" position="14521181" beat="690.25" sync-position="1347812" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="64.066918622448981" length-beats="32" id="4721" type="midi" first-edit="nothing" source-0="3897" master-source-0="3897"/>
     </Playlist>
     <Playlist id="3517" name="Audio.2" type="audio" orig-track-id="3475" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="bass chord-2.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="257710" length="678462" position="257710" beat="12.25" sync-position="252451" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="0.99999988079071045" id="15561" type="audio" first-edit="nothing" source-0="4443" master-source-0="4443" channels="1">
+      <Region name="bass chord-2.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="257710" length="678462" position="257710" beat="12.25" sync-position="257710" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="0.99999988079071045" id="15561" type="audio" first-edit="nothing" source-0="4443" master-source-0="4443" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="15562" interpolation-style="Curved" state="Off">
