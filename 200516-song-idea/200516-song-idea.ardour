@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="200516-song-idea" sample-rate="44100" end-is-free="0" id-counter="116751" name-counter="2" event-counter="701293" vca-counter="1">
+<Session version="3002" name="200516-song-idea" sample-rate="44100" end-is-free="0" id-counter="126306" name-counter="2" event-counter="701300" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3" modified-with="Ardour 1:5.12.0-3ubuntu4"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -1126,7 +1126,6 @@
         <AutomationList automation-id="phase" id="467" interpolation-style="Discrete" state="Off"/>
         <AutomationList automation-id="monitor" id="495" interpolation-style="Discrete" state="Off"/>
       </Automation>
-      <Comment>messing with volume was at -7.3</Comment>
       <Pannable>
         <Controllable name="pan-azimuth" id="475" flags="" value="0.5"/>
         <Controllable name="pan-width" id="479" flags="" value="1"/>
@@ -1151,7 +1150,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="459" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="460" flags="GainLike" value="0.82370471954345703"/>
+        <Controllable name="gaincontrol" id="460" flags="GainLike" value="0.43151906132698059"/>
       </Processor>
       <Processor id="8454" name="Calf Equalizer 8 Band" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer8Band" count="1" custom="0">
         <Automation>
