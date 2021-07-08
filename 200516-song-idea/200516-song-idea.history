@@ -301,22 +301,6 @@
     <StatefulDiffCommand obj-id="147871" type-name="ARDOUR::AudioRegion">
       <Changes>
         <length from="168300" to="105188"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="150400" interpolation-style="Linear" state="Off">
-              <events>0 1
-168300 1
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="150401" interpolation-style="Linear" state="Off">
-              <events>0 1
-105188 1
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="42" type-name="SelectionMemento">
@@ -619,10 +603,10 @@
       <Changes>
         <Regions>
           <Add id="150577"/>
-          <Add id="150587"/>
-          <Add id="150557"/>
           <Add id="150597"/>
+          <Add id="150587"/>
           <Add id="150567"/>
+          <Add id="150557"/>
         </Regions>
       </Changes>
     </StatefulDiffCommand>
