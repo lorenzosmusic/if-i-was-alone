@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="200516-song-idea" sample-rate="44100" end-is-free="0" id-counter="244812" name-counter="5" event-counter="975387" vca-counter="1">
+<Session version="3002" name="200516-song-idea" sample-rate="44100" end-is-free="0" id-counter="260018" name-counter="5" event-counter="987217" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3" modified-with="Ardour 1:5.12.0-3ubuntu4.1"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -1187,11 +1187,9 @@
     <CompoundAssociation copy="21921" original="21881"/>
     <CompoundAssociation copy="21930" original="21903"/>
   </CompoundAssociations>
-  <Selection>
-    <StripableAutomationControl stripable="95211" control="0" order="4"/>
-  </Selection>
+  <Selection/>
   <Locations>
-    <Location id="362" name="session" start="231413" end="8330877" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+    <Location id="362" name="session" start="19838426" end="28316565" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
     <Location id="4394" name="Loop" start="20869267" end="21205868" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
     <Location id="21504" name="Punch" start="8546564" end="8746369" flags="IsAutoPunch" locked="0" position-lock-style="AudioTime"/>
     <Location id="27643" name="A" start="925653" end="2272057" flags="IsRangeMarker" locked="0" position-lock-style="AudioTime"/>
@@ -1511,7 +1509,7 @@ then -9.4 vol</Comment>
         <Automation>
           <AutomationList automation-id="gain" id="459" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="460" flags="GainLike" value="0.43778359889984131"/>
+        <Controllable name="gaincontrol" id="460" flags="GainLike" value="0.32596507668495178"/>
       </Processor>
       <Processor id="8454" name="Calf Equalizer 8 Band" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer8Band" count="1" custom="0">
         <Automation>
@@ -3369,7 +3367,7 @@ added eq to get rid of buzz maybe keep? Maybe turn off?</Comment>
         <Automation>
           <AutomationList automation-id="gain" id="12787" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="12788" flags="GainLike" value="0.3795943558216095"/>
+        <Controllable name="gaincontrol" id="12788" flags="GainLike" value="0.26653075218200684"/>
       </Processor>
       <Processor id="27278" name="Calf Gate" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Gate" count="1" custom="0">
         <Automation>
@@ -4291,7 +4289,7 @@ added eq to get rid of buzz maybe keep? Maybe turn off?</Comment>
           <Port symbol="tuning" value="440"/>
           <Port symbol="bias" value="1"/>
           <Port symbol="filter" value="0.10000000149011612"/>
-          <Port symbol="corr" value="0"/>
+          <Port symbol="corr" value="0.012709135189652443"/>
           <Port symbol="offset" value="0"/>
           <Port symbol="bendrange" value="2"/>
           <Port symbol="fastmode" value="0"/>
@@ -4313,7 +4311,7 @@ added eq to get rid of buzz maybe keep? Maybe turn off?</Comment>
         <Controllable name="Tuning" id="143250" flags="" value="440" parameter="5" symbol="tuning"/>
         <Controllable name="Bias" id="143252" flags="" value="1" parameter="6" symbol="bias"/>
         <Controllable name="Filter" id="143254" flags="" value="0.10000000149011612" parameter="7" symbol="filter"/>
-        <Controllable name="Correction" id="143256" flags="" value="0" parameter="8" symbol="corr"/>
+        <Controllable name="Correction" id="143256" flags="" value="0.012709135189652443" parameter="8" symbol="corr"/>
         <Controllable name="Offset" id="143258" flags="" value="0" parameter="9" symbol="offset"/>
         <Controllable name="Pitch Bend Range" id="143260" flags="" value="2" parameter="10" symbol="bendrange"/>
         <Controllable name="Fast Correction" id="143262" flags="Toggle" value="0" parameter="11" symbol="fastmode"/>
@@ -5038,7 +5036,7 @@ THEN WAS -3.3</Comment>
         <AutomationList automation-id="monitor" id="95250" interpolation-style="Discrete" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="95230" flags="" value="1"/>
+        <Controllable name="pan-azimuth" id="95230" flags="" value="0.5"/>
         <Controllable name="pan-width" id="95234" flags="" value="0"/>
         <Controllable name="pan-elevation" id="95232" flags="" value="0"/>
         <Controllable name="pan-frontback" id="95236" flags="" value="0"/>
@@ -5268,7 +5266,7 @@ THEN WAS -3.3</Comment>
       <Processor id="95244" name="piano" active="1" user-latency="0" own-input="1" own-output="0" output="piano" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="95230" flags="" value="1"/>
+          <Controllable name="pan-azimuth" id="95230" flags="" value="0.5"/>
           <Controllable name="pan-width" id="95234" flags="" value="0"/>
           <Controllable name="pan-elevation" id="95232" flags="" value="0"/>
           <Controllable name="pan-frontback" id="95236" flags="" value="0"/>
@@ -17396,31 +17394,6 @@ THEN WAS -3.3</Comment>
     <Protocol name="Mackie" active="0"/>
   </ControlProtocols>
   <Extra>
-    <ExportProfile>
-      <ExportTimespan format="Timecode">
-        <Range id="362"/>
-      </ExportTimespan>
-      <ExportChannelConfiguration split="0" channels="2">
-        <Channel number="1">
-          <Port name="Master/audio_out 1"/>
-        </Channel>
-        <Channel number="2">
-          <Port name="Master/audio_out 2"/>
-        </Channel>
-      </ExportChannelConfiguration>
-      <ExportFormat id="e61c1d0f-95bd-48fb-b812-def99dbabe28"/>
-      <ExportFilename>
-        <Folder relative="1" path="/export"/>
-        <Field name="label" enabled="1" value="mayor-mcheese-new-vocals"/>
-        <Field name="session" enabled="0"/>
-        <Field name="snapshot" enabled="0"/>
-        <Field name="timespan" enabled="1"/>
-        <Field name="revision" enabled="0"/>
-        <Field name="time" enabled="0" value="T_None"/>
-        <Field name="date" enabled="1" value="D_BEShortY"/>
-      </ExportFilename>
-    </ExportProfile>
-    <ExportRevision revision="2"/>
     <RangeExportProfile>
       <ExportTimespan format="Timecode">
         <Range id="97639"/>
@@ -17445,6 +17418,31 @@ THEN WAS -3.3</Comment>
         <Field name="date" enabled="1" value="D_BEShortY"/>
       </ExportFilename>
     </RangeExportProfile>
+    <ExportRevision revision="2"/>
+    <ExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="362"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="0" channels="2">
+        <Channel number="1">
+          <Port name="Master/audio_out 1"/>
+        </Channel>
+        <Channel number="2">
+          <Port name="Master/audio_out 2"/>
+        </Channel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="e61c1d0f-95bd-48fb-b812-def99dbabe28"/>
+      <ExportFilename>
+        <Folder relative="1" path="/export"/>
+        <Field name="label" enabled="1" value="if-i-was-alone-mix"/>
+        <Field name="session" enabled="0"/>
+        <Field name="snapshot" enabled="0"/>
+        <Field name="timespan" enabled="0"/>
+        <Field name="revision" enabled="1"/>
+        <Field name="time" enabled="0" value="T_None"/>
+        <Field name="date" enabled="1" value="D_BEShortY"/>
+      </ExportFilename>
+    </ExportProfile>
     <UI>
       <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="session-options-editor" visible="0" x-off="0" y-off="335" x-size="750" y-size="368"/>
@@ -17453,7 +17451,7 @@ THEN WAS -3.3</Comment>
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="679" y-size="509"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="37" y-off="55" x-size="620" y-size="370"/>
-      <Window name="audio-midi-setup" visible="0" x-off="125" y-off="418" x-size="582" y-size="438"/>
+      <Window name="audio-midi-setup" visible="0" x-off="117" y-off="45" x-size="582" y-size="438"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="839" y-off="381" x-size="341" y-size="372"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -17488,18 +17486,18 @@ THEN WAS -3.3</Comment>
       <Window name="PM-35706-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-86-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-87-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-3475-3506" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-3475-3505" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-3475-6110" visible="0" x-off="0" y-off="69" x-size="1034" y-size="338" custom-ui="1"/>
-      <Window name="P-3475-228617" visible="0" x-off="752" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
-      <Window name="P-3475-3507" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-3475-3508" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-3506-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-3505-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-6110-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-228617-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-3507-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-3508-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-95211-95242" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-95211-95241" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-95211-96161" visible="0" x-off="583" y-off="114" x-size="858" y-size="713" custom-ui="1"/>
+      <Window name="P-95211-95389" visible="0" x-off="609" y-off="303" x-size="806" y-size="334" custom-ui="1"/>
+      <Window name="P-95211-95243" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-95211-95244" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-95242-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-95241-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-96161-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-95389-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-95243-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-95244-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-456-487" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-456-486" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-456-8454" visible="0" x-off="694" y-off="217" x-size="858" y-size="713" custom-ui="1"/>
@@ -17534,6 +17532,18 @@ THEN WAS -3.3</Comment>
       <Window name="PM-227381-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-14824-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-14825-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-3475-3506" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-3475-3505" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-3475-6110" visible="0" x-off="0" y-off="69" x-size="1034" y-size="338" custom-ui="1"/>
+      <Window name="P-3475-228617" visible="0" x-off="752" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
+      <Window name="P-3475-3507" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-3475-3508" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-3506-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-3505-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-6110-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-228617-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-3507-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-3508-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-11085-11116" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-11085-11115" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-11085-226780" visible="0" x-off="752" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
@@ -17566,18 +17576,6 @@ THEN WAS -3.3</Comment>
       <Window name="PM-228434-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-12816-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-12817-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-95211-95242" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-95211-95241" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-95211-96161" visible="0" x-off="583" y-off="114" x-size="858" y-size="713" custom-ui="1"/>
-      <Window name="P-95211-95389" visible="0" x-off="609" y-off="303" x-size="806" y-size="334" custom-ui="1"/>
-      <Window name="P-95211-95243" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-95211-95244" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-95242-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-95241-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-96161-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-95389-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-95243-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-95244-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-39806-39837" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-39806-39836" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-39806-47694" visible="0" x-off="0" y-off="367" x-size="858" y-size="713" custom-ui="1"/>
